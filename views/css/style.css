@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(235, 235, 234);
+}
+.container{
+    border: solid 1px;
+    width: 50%;
+    height: 50vh;
+    margin: 25px 25px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titre{
+    margin-left: 30px;
+    font-size: 3em;
+}
+input{
+    height: 5vh;
+    width: 70%;
+    border-radius: 5px;
+    border: solid 1px;
+}
+.connexion{
+    background-color: rgb(88, 88, 193);
+    border-radius: 10px;
+    /* list-style: none; */
+    border: none;
+    cursor: pointer;
+    box-shadow: black rgb(52, 50, 50) black;
+}
